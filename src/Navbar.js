@@ -8,16 +8,17 @@ import About from './About';
 function Navbar() {
   return (
     <Router>
-        <nav>
+        <nav className='nav'>
+        <Link className='site-title text' to="/">Ben Edmondson</Link>
             <ul>
-                <li>
-                <Link to="/">Home</Link>
+                <li className='active'>
+                <Link className='navtext' to="/">Home</Link>
                 </li>
                 <li>
-                <Link to="/about">About</Link>
+                <Link className='navtext' to="/about">About</Link>
                 </li>
                 <li>
-                <Link to="/projects">Projects</Link>
+                <Link className='navtext' to="/projects">Projects</Link>
                 </li>
             </ul>
         </nav>
