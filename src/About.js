@@ -1,10 +1,10 @@
 import React from "react";
 
-const About = () => {
+function About() {
     return(
     <div>
         <header className="App-header">
-        <h1>Homepage</h1>
+        <h1>About</h1>
         <p>
             This is the page that will store any information the pertains to "About"
         </p>

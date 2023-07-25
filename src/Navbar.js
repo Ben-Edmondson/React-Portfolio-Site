@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import About from './About';
 
 
-const Navbar = () => {
+function Navbar() {
   return (
     <Router>
         <nav>
