@@ -3,6 +3,7 @@ import Homepage from './Homepage';
 import Projects from './Projects';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import About from './About';
+import Journal from './Journal';
 
 
 function Navbar() {
@@ -20,6 +21,9 @@ function Navbar() {
                 <li>
                 <Link className='navtext' to="/projects">Projects</Link>
                 </li>
+                <li>
+                  <Link className='navtext' to="/journal">Journal</Link>
+                </li>
             </ul>
         </nav>
 
@@ -27,6 +31,7 @@ function Navbar() {
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/journal" element={<Journal />} />
         </Routes>
     </Router>
   );
