@@ -4,6 +4,7 @@ function Calendar() {
   return (
     <div>
         <h1>Monthly Log</h1>
+        <div className='button-container'>
         <p className='button'>August</p>
         <p className='button'>September</p>
         <p className='button'>October</p>
@@ -16,6 +17,7 @@ function Calendar() {
         <p className='button'>May</p>
         <p className='button'>June</p>
         <p className='button'>July</p>
+        </div>
     </div>
   );
 }
