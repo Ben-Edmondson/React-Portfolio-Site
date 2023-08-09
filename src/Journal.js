@@ -1,5 +1,6 @@
 import React from "react";
 import MonthlyEntry from "./MonthlyEntry";
+import Calendar from "./Calendar";
 
 function Journal() {
     const month = "August";
@@ -7,7 +8,7 @@ function Journal() {
     <div>
         <header className="App-header">
         <h1>Journal</h1>
-        <MonthlyEntry month = {month}/>
+        <Calendar/>
         </header>
       </div>
     );
