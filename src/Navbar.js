@@ -32,6 +32,7 @@ function Navbar() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/journal" element={<Journal />} />
+        <Route path="/*" element = {<Error />} />
         </Routes>
     </Router>
   );
