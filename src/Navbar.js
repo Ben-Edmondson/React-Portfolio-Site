@@ -4,7 +4,7 @@ import Projects from './Projects';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import About from './About';
 import Journal from './Journal';
-
+import Error from './Error';
 
 function Navbar() {
   return (
